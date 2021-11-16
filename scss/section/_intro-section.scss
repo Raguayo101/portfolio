@@ -5,43 +5,72 @@
   @include gradient;
   padding: 10rem 0 0 0;
   width: 100%;
-  
 }
 
-.wave{
-          position: relative;
-          top:20; 
-        }
-
-        .contact-icons{
-    padding: 1rem;
-    margin: -2px;
-
+.wave {
+  position: relative;
+  top: 30;
 }
 
-@media (max-width: 575.98px){
-         .contact-icons{
-            justify-content: center;
-        }
-    }
-
-@media (max-width: 575.98px){
-         .wave{
-           position: relative;
-          top:10; 
-          }
+.contact-icons {
+  padding: 1rem;
+  margin: -2px;
 }
 
-@media (max-width: 991.98px){
-  .wave{
-          position: relative;
-          top:15; 
-        }
+.wave-2 {
+  position: relative;
+  bottom: 90;
+  margin-left: -4%;
+  margin-right: -4%;
+}
+.wave-3 {
+  position: relative;
+  margin-left: -4%;
+  margin-right: -4%;
+  top: 90;
+}
+
+@media (max-width: 575.98px) {
+  .wave {
+    position: relative;
+    top: 10;
+  }
+  .contact-icons {
+    justify-content: center;
+  }
+
+  .wave-2 {
+    position: relative;
+    bottom: 80;
+    margin-left: -13%;
+    margin-right: -13%;
+  }
+
+  .wave-3 {
+    position: relative;
+    margin-left: -17%;
+    margin-right: -13%;
+    top: 90;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .wave {
+    position: relative;
+    top: 15;
+  }
+
+  .wave-2 {
+    position: relative;
+    bottom: 90;
+    margin-left: -13%;
+    margin-right: -13%;
+  }
 }
 
 // @media (max-width: 1199.98px) {
 //   .wave{
 //           position: relative;
-//           top:15; 
+//           top:15;
 //         }
 // }

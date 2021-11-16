@@ -1,0 +1,15 @@
+@use '../custom' as *;
+
+.footer {
+  padding: 1rem;
+}
+
+.footer-icon {
+  color: $primary;
+}
+
+@media (max-width: 575.98px) {
+  .centerText {
+    text-align: center;
+  }
+}
