@@ -11263,6 +11263,14 @@ textarea.form-control-lg {
 .about-me {
   padding: 4rem 2rem;
 }
+.about-me p {
+  color: #99d19c;
+}
+
+#aboutme-text p {
+  color: #99d19c;
+  font-size: 2rem;
+}
 
 .portfolio {
   padding: 4rem 2rem;
