@@ -20,14 +20,16 @@
 .wave-2 {
   position: relative;
   bottom: 90;
-  margin-left: -4%;
-  margin-right: -4%;
+  margin-left: -3.3%;
+  margin-right: -2.2%;
+  
 }
 .wave-3 {
   position: relative;
-  margin-left: -4%;
-  margin-right: -4%;
+  margin-left: -3%;
+  margin-right: -2.2%;
   top: 90;
+  
 }
 
 @media (max-width: 575.98px) {
@@ -42,14 +44,14 @@
   .wave-2 {
     position: relative;
     bottom: 80;
-    margin-left: -13%;
+    margin-left: -20%;
     margin-right: -13%;
   }
 
   .wave-3 {
     position: relative;
     margin-left: -17%;
-    margin-right: -13%;
+    margin-right: -17%;
     top: 90;
   }
 }
@@ -63,14 +65,28 @@
   .wave-2 {
     position: relative;
     bottom: 90;
-    margin-left: -13%;
-    margin-right: -13%;
+    margin-left: -17%;
+    margin-right: -17%;
   }
 }
 
-// @media (max-width: 1199.98px) {
-//   .wave{
-//           position: relative;
-//           top:15;
-//         }
-// }
+@media (max-width: 1199.98px) {
+  .wave {
+    position: relative;
+    top: 15;
+  }
+
+  .wave-2 {
+    position: relative;
+    bottom: 90;
+    margin-left: -4.1%;
+    margin-right: -3.9%;
+  }
+
+  .wave-3 {
+    position: relative;
+    margin-left: -4%;
+    margin-right: -3.9%;
+    top: 90;
+  }
+}
