@@ -5,8 +5,43 @@
   @include gradient;
   padding: 10rem 0 0 0;
   width: 100%;
-  height: 100%;
+  
+}
 
+.wave{
+          position: relative;
+          top:20; 
+        }
+
+        .contact-icons{
+    padding: 1rem;
+    margin: -2px;
 
 }
 
+@media (max-width: 575.98px){
+         .contact-icons{
+            justify-content: center;
+        }
+    }
+
+@media (max-width: 575.98px){
+         .wave{
+           position: relative;
+          top:10; 
+          }
+}
+
+@media (max-width: 991.98px){
+  .wave{
+          position: relative;
+          top:15; 
+        }
+}
+
+// @media (max-width: 1199.98px) {
+//   .wave{
+//           position: relative;
+//           top:15; 
+//         }
+// }

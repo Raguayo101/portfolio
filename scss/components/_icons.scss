@@ -1,0 +1,18 @@
+@use '../custom' as *;
+
+.icon-ani{
+    color: white;
+    opacity: 0.7;
+    transition-property: opacity, transform;
+    will-change: opacity, transform;
+
+&:hover {
+    opacity: 1;
+    transform: scale(1.25);
+    }
+
+&:active {
+    opacity: 1;
+    transform: scale(1.1);
+}
+}

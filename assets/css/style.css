@@ -11197,6 +11197,21 @@ textarea.form-control-lg {
   background-color: #99d19c;
 }
 
+.icon-ani {
+  color: white;
+  opacity: 0.7;
+  transition-property: opacity, transform;
+  will-change: opacity, transform;
+}
+.icon-ani:hover {
+  opacity: 1;
+  transform: scale(1.25);
+}
+.icon-ani:active {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
 .menu {
   background: linear-gradient(to right, rgba(153, 209, 156, 0.95), rgba(83, 128, 131, 0.95));
 }
@@ -11216,11 +11231,41 @@ textarea.form-control-lg {
   background: linear-gradient(to right, rgba(153, 209, 156, 0.95), rgba(83, 128, 131, 0.95));
   padding: 10rem 0 0 0;
   width: 100%;
-  height: 100%;
+}
+
+.wave {
+  position: relative;
+  top: 20;
+}
+
+.contact-icons {
+  padding: 1rem;
+  margin: -2px;
+}
+
+@media (max-width: 575.98px) {
+  .contact-icons {
+    justify-content: center;
+  }
+}
+@media (max-width: 575.98px) {
+  .wave {
+    position: relative;
+    top: 10;
+  }
+}
+@media (max-width: 991.98px) {
+  .wave {
+    position: relative;
+    top: 15;
+  }
+}
+.about-me {
+  padding: 4rem 2rem;
 }
 
 .portfolio {
-  padding: 4rem 0;
+  padding: 4rem 2rem;
 }
 .portfolio button {
   text-transform: capitalize;
