@@ -11125,6 +11125,8 @@ textarea.form-control-lg {
   margin: 0;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
   background-color: #fff;
+  border-radius: 0.3rem;
+  border: #99d19c solid 1px;
 }
 @media (max-width: 575.98px) {
   .btn-rounded {
@@ -11148,6 +11150,9 @@ textarea.form-control-lg {
 }
 .btn-rounded:hover {
   background: linear-gradient(to right, rgba(153, 209, 156, 0.95), rgba(83, 128, 131, 0.95));
+  color: #fff;
+}
+.btn-rounded:hover a {
   color: #fff;
 }
 .btn-rounded:hover span {
